@@ -17,14 +17,14 @@ export default class Navbar extends Component {
   render() {
     const { isOpen } = this.state;
     return (
-      <nav className='flex flex-row justify-between items-center bg-slate-950 pl-10 pr-10'>
+      <nav className='flex flex-row justify-between items-center bg-slate-950 pl-10 pr-10 w-[100%] fixed'>
         <div className='page'>
           <h2>
             <span>1</span>PAGE
           </h2>
         </div>
         <div>
-          <ul className="flex flex-row text-white gap-[15px]">
+          <ul className="flex flex-row text-white gap-[15px] w-[100%]">
             <li className="hidden md:block">
               <a href=''>MarketPlace</a>
             </li>
